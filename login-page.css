@@ -1,0 +1,26 @@
+div.auth0-lock-form > div:first-child {
+  display: flex;
+  flex-direction: column;
+}
+
+div.auth0-lock-form > div.auth0-lock-tabs-container {
+  order: 0;
+}
+
+div.auth0-lock-form > div.auth0-lock-pane-separator {
+  order: 1;
+}
+
+div.auth0-lock-form > div:last-child {
+  order: 2;
+}
+
+div.auth0-lock-form > div.auth-lock-social-buttons-pane {
+  order: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+div.auth0-lock-form > div.auth-lock-social-buttons-pane > p {
+  order: 4;
+}
